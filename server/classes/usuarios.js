@@ -5,7 +5,7 @@ class Usuarios {
     }
 
     agregarPersona(id, nombre, sala) {
-        let persona = { id, nombre };
+        let persona = { id, nombre, sala };
 
         this.personas.push(persona);
 
